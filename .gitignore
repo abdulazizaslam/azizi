@@ -1,3 +1,8 @@
+# Node / Vite
+node_modules/
+dist/
+
+# Docs deploy target is generated; keep committed build optional.
 # Claude local settings & secrets
 .claude/settings.local.json
 .env
@@ -8,10 +13,3 @@
 Thumbs.db
 Desktop.ini
 .DS_Store
-
-# Dependencies / build
-node_modules/
-dist/
-build/
-__pycache__/
-*.pyc
