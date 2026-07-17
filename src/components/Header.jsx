@@ -28,7 +28,9 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 backdrop-blur-md bg-bg/85 border-b border-line">
       <div className="flex items-center gap-6 px-5 py-3">
-        <Link to="/" className="logo text-xl font-extrabold grad-text whitespace-nowrap">Core AI Video</Link>
+        <Link to="/" className="logo flex items-center shrink-0">
+          <img src="/image/selected-3.webp" alt="Core AI Video" className="h-8 w-auto" />
+        </Link>
         <button
           className="md:hidden text-2xl text-ink ml-auto"
           aria-label="Menu"
