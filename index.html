@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Core AI Video — AI-Powered Video Creation</title>
+  <meta name="description" content="Core AI Video turns your ideas into stunning videos using artificial intelligence. Fast, affordable, and effortless." />
+  <style>
+    :root {
+      --bg: #0b0f1a;
+      --panel: #121829;
+      --accent: #6c8cff;
+      --accent-2: #a855f7;
+      --text: #e7ecf5;
+      --muted: #9aa6bd;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.25rem 6vw;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      position: sticky;
+      top: 0;
+      backdrop-filter: blur(10px);
+      background: rgba(11,15,26,0.7);
+    }
+    .logo {
+      font-weight: 800;
+      font-size: 1.25rem;
+      background: linear-gradient(90deg, var(--accent), var(--accent-2));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    nav a {
+      color: var(--muted);
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-size: 0.95rem;
+    }
+    nav a:hover { color: var(--text); }
+    .hero {
+      text-align: center;
+      padding: 7rem 6vw 5rem;
+      background: radial-gradient(ellipse at top, rgba(108,140,255,0.15), transparent 60%);
+    }
+    .hero h1 {
+      font-size: clamp(2.2rem, 5vw, 4rem);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 1.25rem;
+    }
+    .hero h1 span {
+      background: linear-gradient(90deg, var(--accent), var(--accent-2));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    .hero p {
+      color: var(--muted);
+      font-size: 1.15rem;
+      max-width: 640px;
+      margin: 0 auto 2.5rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.9rem 2rem;
+      border-radius: 999px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .btn-primary {
+      background: linear-gradient(90deg, var(--accent), var(--accent-2));
+      color: white;
+      box-shadow: 0 8px 30px rgba(108,140,255,0.35);
+    }
+    .btn-primary:hover { transform: translateY(-2px); }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem 6vw 6rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 16px;
+      padding: 2rem;
+    }
+    .card h3 { font-size: 1.2rem; margin-bottom: 0.5rem; }
+    .card p { color: var(--muted); font-size: 0.98rem; }
+    .icon { font-size: 1.8rem; margin-bottom: 0.75rem; }
+    footer {
+      text-align: center;
+      padding: 2.5rem 6vw;
+      color: var(--muted);
+      border-top: 1px solid rgba(255,255,255,0.06);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Core AI Video</div>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Turn ideas into <span>stunning videos</span><br />with AI</h1>
+    <p>Core AI Video helps creators, marketers, and businesses generate professional videos in minutes — no editing skills required.</p>
+    <a href="#contact" class="btn btn-primary">Get Started Free</a>
+  </section>
+
+  <section class="features" id="features">
+    <div class="card">
+      <div class="icon">⚡</div>
+      <h3>Lightning Fast</h3>
+      <p>Generate complete videos from a simple prompt in just minutes.</p>
+    </div>
+    <div class="card">
+      <div class="icon">🎬</div>
+      <h3>Studio Quality</h3>
+      <p>AI-powered scenes, voiceovers, and transitions that look professional.</p>
+    </div>
+    <div class="card">
+      <div class="icon">💸</div>
+      <h3>Affordable</h3>
+      <p>Skip expensive production teams. Create more for a fraction of the cost.</p>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>&copy; 2026 Core AI Video — coreaivideo.com. All rights reserved.</p>
+  </footer>
+</body>
+</html>
